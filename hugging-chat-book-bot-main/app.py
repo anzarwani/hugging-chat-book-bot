@@ -8,8 +8,11 @@ import os
 load_dotenv()
 
 # Access the environment variables
-email = os.getenv('EMAIL')
-passwd = os.getenv('PASSWORD')
+#email = os.getenv('EMAIL')
+#passwd = os.getenv('PASSWORD')
+
+email = st.secrets["email"]
+passwd = st.secrets["passwd"]
 
 sign = Login(email, passwd)
 cookies = sign.login()
