@@ -13,7 +13,7 @@ To install and set up the Hugging Chat Book Bot, follow these steps:
 
 1. Clone the repo
 
-`$ git clone [https://github.com/your-username/your-repo.git](https://github.com/anzarwani/hugging-chat-book-bot.git)`
+`$ git clone https://github.com/anzarwani/hugging-chat-book-bot.git`
 
 2. Install the requirements
 
