@@ -3,10 +3,10 @@
 The Hugging Chat Book Bot is a recommendation system that suggests books based on the mood you select. It utilizes the Streamlit framework for the frontend and the Hugging Chat API by Soulter for making API calls.
 
 # Table of Contents
-**Installation**
-**Usage**
-**Features**
-**Contributing**
+1. **Installation**
+2. **Usage**
+3. **Features**
+4. **Contributing**
 
 ## Installation
 To install and set up the Hugging Chat Book Bot, follow these steps:
