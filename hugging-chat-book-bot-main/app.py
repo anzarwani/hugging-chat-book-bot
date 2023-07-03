@@ -18,7 +18,9 @@ sign = Login(email, passwd)
 cookies = sign.login()
 
 # Save cookies to usercookies/<email>.json
-sign.saveCookies()
+#sign.saveCookies()
+
+sign.saveCookiesToDir()
 
 st.set_page_config(page_title="Book Recommendation Bot - An LLM-powered Streamlit bot")
 
