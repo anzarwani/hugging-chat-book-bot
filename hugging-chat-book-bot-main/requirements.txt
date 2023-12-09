@@ -1,2 +1,2 @@
-hugchat == 0.0.8
+hugchat == 0.3.8
 python-dotenv == 1.0.0
