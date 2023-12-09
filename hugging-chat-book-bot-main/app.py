@@ -52,7 +52,7 @@ query = "Suggest " + num_of_recom + "books based on the mood " + selected_moods 
 def recom(query):
     
     chatbot = hugchat.ChatBot(cookies=cookies.get_dict())
-    response = chatbot.chat(query)
+    response = chatbot.query(query)
     
     return response
 
